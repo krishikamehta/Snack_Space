@@ -29,9 +29,9 @@ hbs.registerPartials('views/partials')
 
 
 
-mongoose.connect("mongodb://localhost/restorent",()=>{
+mongoose.connect("mongodb://localhost/restaurant",()=>{
     console.log("Server connected..");
 })
 app.listen(5656,()=>{
-    console.log('server is start..')
+    console.log('server has started..')
 })
